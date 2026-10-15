@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pantalla con punto de grabacion: representa OBS. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,32h36a5,5 0 0 1 5,5v28a5,5 0 0 1 -5,5h-36a5,5 0 0 1 -5,-5v-28a5,5 0 0 1 5,-5z" />
+
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,51m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0" />
+</vector>

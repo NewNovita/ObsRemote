@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    obs-websocket usa ws:// (WebSocket sin TLS) en la red local.
+    Android bloquea el trafico en claro por defecto, asi que lo permitimos aqui.
+    Como la app solo se conecta a tu LAN, el riesgo es acotado.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
